@@ -8,7 +8,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/dmitridb/goinsta"
+	"github.com/dmitridb/goinsta/v3"
 )
 
 func readFromBase64(base64EncodedString string) (*goinsta.Instagram, error) {
